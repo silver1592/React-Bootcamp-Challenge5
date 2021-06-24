@@ -18,7 +18,7 @@ describe("Filter Pokemon", () => {
   test("it should return an array with charizard object", () => {
     /* Your solution comes here */
     const result = filterPokemon(mockPokemonsData, "charizard");
-    expect(result).toContain(mockPokemonsData.charizard);
+    expect(result).toContain(mockPokemonsData[0]);
   });
 
   // /* BUNUS */
